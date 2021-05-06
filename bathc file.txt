@@ -1,0 +1,11 @@
+
+"C:\Program Files\Unity\Hub\Editor\2019.4.15f1\Editor\Unity.exe" -batchmode -quit -projectPath "C:\jenkins _test" -executeMethod BatchTest.OutPutLog
+
+"C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Unity.exe" -batchmode -quit -logFile "C:\buildtest\test"\build_log.log" -buildTarget win32 -projectPath "C:\buildtest" -executeMethod BatchTest.OutPutLog
+
+"유니티설치경로\Unity\Editor\Unity.exe" -quit -batchmode -logFile "빌드 로그파일이 생성될 위치"\build_log.log -buildTarget win32 -projectPath "프로젝트경로" -executeMethod "클래스명"."함수명"
+
+
+"C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Unity.exe" -batchmode -quit -buildTarget win32 -projectPath "C:\buildtest" -executeMethod BuildMGR.DoAutoBuild_Test
+
+"C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Unity.exe" -batchmode -quit -buildTarget win32 -projectPath "C:\buildtest" -executeMethod BuildMGR.DoAutoBuild_ios
